@@ -1,0 +1,121 @@
+#head_top{
+    font-family: "Dela Gothic One";
+    font-size: 45px;
+    color: white;
+    text-align: right;
+    background: linear-gradient(to top, rgb(91, 125, 170), #858b84);
+    width: 100%;
+}
+
+#head_bottom{
+    font-family: "Dela Gothic One";
+    font-size: 45px;
+    color:rgb(14, 35, 8);
+    bottom: 0;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(rgb(12, 75, 12), #858b84);
+}
+
+body{
+    background-image: url("/images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.item{
+    font-family: "Dela Gothic One";
+    font-size:20px;
+    color:white;
+    -webkit-text-stroke: 1px black;
+    width: 100%;
+    height: 350px;
+    margin-top: 2px;
+    padding: 1em;
+    border: 5px solid rgb(8, 18, 22);
+    border-radius: 5px;
+    border-style: groove;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 100px 200px ;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-gap: 5px 7em;    
+}
+
+.item-3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    height: 520px;
+}
+
+.item-4{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    font-size:17px;
+    text-align: left;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    
+}
+.item-5{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 520px;
+    height: 100px;
+}
+
+a{
+    font-family: "Dela Gothic One";
+    font-size:17px;
+    color:white;
+    -webkit-text-stroke: 1px black;
+    text-decoration: none;
+}
+
+.history{
+    width: 90%;
+}
+
+.infr1{
+    width: 30%;
+}
+#map_infr{
+    margin: 5px;
+}
+
+.photo_container{
+    max-width: 1224px;
+    width: 90%;
+}
+
+.gallery{
+    display: flex;
+    gap: 20px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.photo img{
+    
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.inputClass{
+    width: 300px;
+    left: 0;
+    margin: 5px;
+    position: absolute;
+}
